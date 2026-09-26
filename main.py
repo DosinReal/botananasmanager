@@ -182,10 +182,7 @@ COMMANDS = {
 
     'ограбить': robbery.cmd_rob, 'rob': robbery.cmd_rob,
     'тюрьма': robbery.cmd_arrest_info, 'jail': robbery.cmd_arrest_info,
-    'штраф': ro
-
-
-bbery.cmd_police_fine, 'fine': robbery.cmd_police_fine,
+    'штраф': robbery.cmd_police_fine, 'fine': robbery.cmd_police_fine,
 }
 
 COMMANDS['дом'] = _house_router
@@ -286,7 +283,7 @@ def main():
                 if action and isinstance(action, dict):
                     atype = action.get('type')
                     if atype == 'chat_invite_user':
-handle_invite(event.peer_id, action.get('member_id'))
+                        handle_invite(event.peer_id, action.get('member_id'))
                         continue
                     if atype == 'chat_kick_user':
                         continue
