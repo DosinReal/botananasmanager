@@ -1,5 +1,5 @@
-TOKEN = "ВСТАЫЬ СВОЙ ИД"
-CREATOR_IDS = [1030217520, 793215429]
+TOKEN = "241611854"
+CREATOR_IDS = [241611854, 793215429]
 BOT_GROUP_ID = ВСТАВЬ ГРУПП ИД
 DB_PATH = 'economy_bot.db'
 LOG_PATH = 'economy_bot.log'
