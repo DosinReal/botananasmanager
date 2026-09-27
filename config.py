@@ -1,6 +1,6 @@
 TOKEN = "241611854"
 CREATOR_IDS = [241611854, 793215429]
-BOT_GROUP_ID = ВСТАВЬ ГРУПП ИД
+BOT_GROUP_ID = 241611854
 DB_PATH = 'economy_bot.db'
 LOG_PATH = 'economy_bot.log'
 
