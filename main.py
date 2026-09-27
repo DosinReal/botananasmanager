@@ -5,7 +5,6 @@ import threading
 import datetime
 import logging
 import sys
-from vk_api.longpoll import VkLongPoll, VkEventType
 
 from config import TOKEN, CREATOR_IDS, BOT_GROUP_ID, LOG_PATH
 from db import init_db, cursor, conn, get_user, list_global_roles
