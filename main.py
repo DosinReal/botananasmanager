@@ -5,7 +5,10 @@ import threading
 import datetime
 import logging
 import sys
+import vk_api
+from vk_api.longpoll import VkLongPoll, VkEventType
 
+from config import TOKEN, CREATOR_IDS, BOT_GROUP_ID, LOG_PATH
 from db import init_db, cursor, conn, get_user, list_global_roles
 from utils import (
     send_message as _send, delete_message, kick_user_from_chat,
