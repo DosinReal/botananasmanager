@@ -1,3 +1,0 @@
-import os
-DB_PATH = os.path.join(os.getcwd(), "data", "economy_bot.db")
-os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
