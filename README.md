@@ -1,2 +1,0 @@
-# ANANAS-MANAGER
-Ananasiki
